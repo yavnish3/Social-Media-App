@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "7805719323",
+    "firebase_url": "https://social-blogs.firebaseio.com",
+    "project_id": "social-blogs",
+    "storage_bucket": "social-blogs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7805719323:android:35fab71aedd3f3faff39be",
+        "android_client_info": {
+          "package_name": "com.firebase.socialblogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7805719323-d1pktk83eufhdp76mn5ej04o17qms6bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9TsAPF-64sCBt0Uy055THYo1kmxGpJPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7805719323-d1pktk83eufhdp76mn5ej04o17qms6bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

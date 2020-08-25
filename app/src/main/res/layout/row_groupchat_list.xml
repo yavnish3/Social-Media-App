@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:contentPadding="3dp"
+    android:layout_marginTop="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/groupIconIv"
+            android:src="@drawable/ic_groupicon_primary"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        
+        <TextView
+            android:id="@+id/groupTitleTV"
+            android:layout_marginLeft="4dp"
+            android:text="Group Title"
+            android:layout_toEndOf="@+id/groupIconIv"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <TextView
+            android:id="@+id/nameTV"
+            android:text="Sender Name"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/colorBlack"
+            android:layout_toRightOf="@id/groupIconIv"
+            android:layout_below="@+id/groupTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/messageTV"
+            android:layout_below="@+id/groupTitleTV"
+            android:layout_toEndOf="@+id/nameTV"
+            android:text="This message"
+            android:singleLine="true"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/timeTV"
+            android:layout_below="@+id/nameTV"
+            android:layout_alignParentEnd="true"
+            android:text="12:12 pm"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
