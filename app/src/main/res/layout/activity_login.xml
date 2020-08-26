@@ -16,16 +16,16 @@
         android:textStyle="bold"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:gravity="center_horizontal" />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/ui"
         android:layout_below="@+id/asd"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="5dp"
         />
 
     <com.google.android.material.textfield.TextInputLayout
